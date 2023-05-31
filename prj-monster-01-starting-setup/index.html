@@ -58,8 +58,8 @@
             >
               {{ logMessage.actionBy === 'player' ? 'Player' : 'monster'}}
             </span>
-            <span v-if="logMessage.actionType === 'heal'"
-              >heals himself for<span class="log--heal"
+            <span v-if="logMessage.actionType === 'heal'">
+              heals himself for<span class="log--heal"
                 >{{ logMessage.actionValue}}</span
               ></span
             >
